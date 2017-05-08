@@ -5,13 +5,17 @@ Note: The latest Facebook SDK for PHP requires PHP 5.4 or greater.
 
 ## Installation
 
-1 clone project
-2 update composer
-3 set your facebook_appId and facebook_appSecret in facebook.config (and set permissions) 
+1. clone project
+2. copy files to your project including composer.json and application/*
+2. update composer
+3. set your facebook_appId and facebook_appSecret in facebook.config (and set permissions) 
 
 ## Usage
 
-See [https://developers.facebook.com/docs/graph-api/overview/]
+Sample helper function     
+    function fb_fileToUpload($fblib, $path_to_file, $params = [], $type = 'image', $access_token = null)
+
+See [https://developers.facebook.com/docs/graph-api/overview/] for how to do more
 
 ## Contributing
 

@@ -1,0 +1,8 @@
+{
+    "name": "ci-blox/codeigniter-facebook-sdk",
+    "description": "Simple integration with latest Facebook API - for use with Ignition Go (or vanilla Codeigniter if sessions are set up)",
+    "require": {
+        "php": ">=5.4.16",
+        "facebook/graph-sdk": "^5.5"
+    }
+}
